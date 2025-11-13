@@ -136,3 +136,17 @@ nav a.active {
   line-height: 2;
   font-size: 1.1em;
 }
+
+/* セクション見出しの統一感 */
+section h3 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+/* フォーム部分の背景色を薄く */
+#contact {
+  background: #f7fbff;
+  border-top: 1px solid #dce9f5;
+  border-bottom: 1px solid #dce9f5;
+  padding: 60px 20px;
+}

@@ -3,65 +3,221 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>仕組み | Campus Mobility Project</title>
+  <title>Campus Mobilityとは - サービス紹介</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Campus Mobility Project</h1>
+    <div class="logo-area">
+      <img src="images/ncu_logo.png" alt="名古屋市立大学ロゴ" class="logo">
+      <h1>Campus Mobility Project</h1>
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">ホーム</a></li>
-        <li><a href="about.html" class="active">仕組み</a></li>
-        <li><a href="sponsor.html">スポンサー募集</a></li>
+        <li><a href="about.html" class="active">プロジェクト</a></li>
+        <li><a href="student.html">在学生の方</a></li>
+        <li><a href="sponsor.html">企業の方</a></li>
       </ul>
     </nav>
   </header>
 
-  <section id="intro">
-    <h2>Campus Mobilityの仕組み</h2>
-    <p>大学・企業・学生が連携し、移動の自由と学びの広がりを両立させる新しい仕組みです。</p>
+  <section id="hero">
+    <h2>Campus Mobility Projectについて</h2>
+    <p>大学・企業・学生が連携する、革新的なモビリティサービス</p>
   </section>
 
-  <section id="carshare">
-    <h3>🚗 学生カーシェア</h3>
-    <p>
-      大学が所有する車両にスポンサー企業の広告を掲載することで、<br>
-      学生が無料で利用できる仕組みを実現します。<br>
-      利用には大学アカウントでの認証が必要なため、安全で公平な運用が可能です。
-    </p>
-    <div class="card-container">
-      <div class="card">
-        <h4>スマホで予約</h4>
-        <p>専用アプリから日時を選択し、簡単に予約が完了します。</p>
+  <section id="concept">
+    <h2> プロジェクトのコンセプト</h2>
+    <p>Campus Mobility Projectは、名古屋市立大学の学生の移動を支援するとともに、<br>
+    企業にとっての新たな広告機会を提供する革新的な産学連携プロジェクトです。</p>
+    
+    <div class="concept-grid">
+      <div class="concept-card">
+        <h3>学生カーシェア</h3>
+        <p>大学が提供する車両を学生が無料で利用できるサービス。学業、研究活動、就職活動など幅広い用途で利用可能です。</p>
       </div>
-      <div class="card">
-        <h4>キャンパスで受け取り</h4>
-        <p>大学駐車場で車をピックアップ。返却も同じ場所で行えます。</p>
+      <div class="concept-card">
+        <h3>キャンパス間バス</h3>
+        <p>4つのキャンパス間を結ぶ自動運転バス。最新技術を活用し、安全で効率的な移動を提供します。</p>
       </div>
-      <div class="card">
-        <h4>スポンサー連携</h4>
-        <p>協賛企業のロゴを車体に掲載。学生の移動が広告になります。</p>
+      <div class="concept-card">
+        <h3>企業広告展開</h3>
+        <p>車両・バスの外側や内側、デジタルサイネージを活用した多様な広告メディアを企業に提供します。</p>
+      </div>
+      <div class="concept-card">
+        <h3>産学連携</h3>
+        <p>企業と大学の長期的なパートナーシップを構築し、学生の学びと社会との接点を創出します。</p>
       </div>
     </div>
   </section>
 
-  <section id="bus">
-    <h3>🚌 自動運転バスによるキャンパス間連携</h3>
-    <p>
-      名古屋市立大学の4キャンパスを結ぶ自動運転バスを運行予定です。<br>
-      学生・教職員の移動を効率化し、同時に広告掲載による企業PRの場として活用します。
-    </p>
-    <ul class="campus-list">
-      <li>🏫 滝子キャンパス（人文社会学部・経済学部など）</li>
-      <li>🏥 桜山キャンパス（医学部・看護学部）</li>
-      <li>🌿 田辺通キャンパス（薬学部）</li>
-      <li>💡 北千種キャンパス（芸術工学部）</li>
-    </ul>
+  <section id="bus-showcase">
+    <h2>🚌 電気自動運転バス</h2>
+    <p>最新の電気自動運転技術を搭載した、環境に優しく安全な移動手段</p>
+    
+    <div class="bus-image-container">
+      <img src="images/bus_model.png" alt="電気自動運転バスのモデル画像" class="bus-model-image">
+      <div class="bus-specs">
+        <h3>バス仕様・特徴</h3>
+        <ul class="spec-list">
+          <li><strong>車両タイプ:</strong> 電気自動運転バス</li>
+          <li><strong>定員:</strong> 40名（座席28名 + 立席12名）</li>
+          <li><strong>運行速度:</strong> 最高40km/h（キャンパス内は20km/h）</li>
+          <li><strong>安全機能:</strong> 360度センサー、緊急停止システム</li>
+          <li><strong>環境配慮:</strong> ゼロエミッション、低騒音設計</li>
+          <li><strong>車内設備:</strong> Wi-Fi、USB充電、32インチモニター×2台</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="bus-features-grid">
+      <div class="feature-highlight">
+        <h4> 電気駆動システム</h4>
+        <p>100%電気で動作し、CO2排出量ゼロ。環境に配慮したクリーンな移動を実現します。</p>
+      </div>
+      <div class="feature-highlight">
+        <h4>AI自動運転</h4>
+        <p>最新のAI技術とセンサーにより、安全で正確な自動運転を実現。運転手不要の移動サービス。</p>
+      </div>
+      <div class="feature-highlight">
+        <h4>リアルタイム運行情報</h4>
+        <p>専用アプリで現在位置、到着予定時刻、混雑状況をリアルタイムで確認できます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mechanism">
+    <h2>サービスの仕組み</h2>
+    
+    <div class="mechanism-steps">
+      <div class="step-item">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>スポンサー企業の協賛</h3>
+          <p>企業が広告費を支払い、車両・バスに広告を掲載。この広告収入がサービス運営の基盤となります。</p>
+        </div>
+      </div>
+      
+      <div class="step-item">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>車両・バスの提供</h3>
+          <p>大学がリースした車両と自動運転バスを学生・教職員が利用可能な状態で管理・運営。</p>
+        </div>
+      </div>
+      
+      <div class="step-item">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>学生の無料利用</h3>
+          <p>専用アプリで予約を行い、学生証と運転免許証があれば誰でも無料でサービスを利用できます。</p>
+        </div>
+      </div>
+      
+      <div class="step-item">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3>持続可能な運営</h3>
+          <p>広告収入により継続的な運営を実現し、学生への移動支援と企業への広告価値の両立を図ります。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>サービスの特徴</h2>
+    
+    <div class="features-container">
+      <div class="feature-category">
+        <h3>学生向けメリット</h3>
+        <ul class="feature-list">
+          <li>完全無料でのカーシェア利用</li>
+          <li>24時間365日利用可能</li>
+          <li>キャンパス間の電気自動運転バス</li>
+          <li>アプリで簡単予約・管理</li>
+          <li>学業・就活・プライベートに活用</li>
+          <li>ランク制による優遇システム</li>
+        </ul>
+      </div>
+      
+      <div class="feature-category">
+        <h3>企業向けメリット</h3>
+        <ul class="feature-list">
+          <li>高い広告露出効果</li>
+          <li>若年層への直接アプローチ</li>
+          <li>CSR活動としての社会貢献</li>
+          <li>大学との産学連携実績</li>
+          <li>複数の広告媒体選択可能</li>
+          <li>効果測定レポート提供</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="technology">
+    <h2> 導入技術・システム</h2>
+    
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h3>自動運転技術</h3>
+        <p>最新のAI技術を活用した自動運転バス。安全性と効率性を両立し、キャンパス間移動を革新します。</p>
+      </div>
+      
+      <div class="tech-card">
+        <h3> 専用アプリ</h3>
+        <p>「キャンパスカーシェア予約」アプリで車両検索から予約、利用まで全てをデジタル管理。</p>
+      </div>
+      
+      <div class="tech-card">
+        <h3> K-MaCS評価システム</h3>
+        <p>キリックスリースのテレマティクスサービスによる運転技能評価でランク制を実現。</p>
+      </div>
+      
+      <div class="tech-card">
+        <h3> デジタルサイネージ</h3>
+        <p>バス内32インチモニターによる動画・静止画広告配信。リアルタイム情報更新に対応。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <h2> 期待される効果・影響</h2>
+    
+    <div class="impact-container">
+      <div class="impact-item">
+        <h3>教育面での効果</h3>
+        <p>学生の行動範囲が広がることで、インターンシップ、研究活動、ボランティア等の機会が増加。<br>
+        実社会との接点拡大により、より実践的な学びを実現します。</p>
+      </div>
+      
+      <div class="impact-item">
+        <h3>地域社会への貢献</h3>
+        <p>地域企業と大学の連携強化により、名古屋圏の産学連携エコシステムを発展。<br>
+        新たなビジネスモデルとして他地域への展開も期待されます。</p>
+      </div>
+      
+      <div class="impact-item">
+        <h3>技術革新の推進</h3>
+        <p>自動運転技術の実証実験フィールドとして機能し、<br>
+        次世代モビリティ技術の発展に貢献します。</p>
+      </div>
+
+      <div class="impact-item">
+        <h3>SDGsへの取り組み</h3>
+        <p>名古屋市立大学はSDGsに力を入れています。<br>
+        CO2の排出量削減、持続可能な社会へ取り組みに挑戦します。</p>
+      </div>
+    </div>
   </section>
 
   <footer>
     <p>© 2025 Campus Mobility Project | Nagoya City University</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

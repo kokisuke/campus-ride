@@ -597,14 +597,18 @@ p {
 
 .ad-locations {
   margin: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
 .location-category {
   background: #f8fafc;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 24px;
-  margin: 20px 0;
+  padding: 20px;
+  margin: 0;
+  height: fit-content;
 }
 
 .location-category h3 {
@@ -807,6 +811,10 @@ p {
   }
   
   .packages-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ad-locations {
     grid-template-columns: 1fr;
   }
 }

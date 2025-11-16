@@ -18,6 +18,24 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 
+  // 「利用案内を見る」ボタンの動作
+  const studentsInfoButton = document.getElementById("studentsInfo");
+  if (studentsInfoButton) {
+    studentsInfoButton.addEventListener("click", () => {
+      // student.htmlページに遷移
+      window.location.href = "student.html";
+    });
+  }
+
+  // 「スポンサーシップ詳細」ボタンの動作
+  const sponsorInfoButton = document.getElementById("sponsorInfo");
+  if (sponsorInfoButton) {
+    sponsorInfoButton.addEventListener("click", () => {
+      // sponsor.htmlページに遷移
+      window.location.href = "sponsor.html";
+    });
+  }
+
   // 「予約サイトへアクセス」ボタンの動作
   const reservationButton = document.getElementById("reservationButton");
   if (reservationButton) {

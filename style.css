@@ -598,8 +598,8 @@ p {
 .ad-locations {
   margin: 30px 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
 .location-category {
@@ -608,7 +608,9 @@ p {
   border-radius: 12px;
   padding: 20px;
   margin: 0;
-  height: fit-content;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .location-category h3 {
@@ -618,6 +620,12 @@ p {
   font-size: 20px;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 8px;
+}
+
+.location-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .location-details h4 {
@@ -653,7 +661,7 @@ p {
   border: 1px solid #93c5fd;
   border-radius: 8px;
   padding: 12px;
-  margin-top: 16px;
+  margin-top: auto;
   font-size: 14px;
   color: #1e40af;
 }
@@ -815,11 +823,17 @@ p {
   }
   
   .ad-locations {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }
 
 @media (max-width: 480px) {
+  .ad-locations {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
   .location-category {
     padding: 16px;
   }

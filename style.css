@@ -1241,3 +1241,171 @@ p {
     padding: 16px;
   }
 }
+
+/* K-MaCSセクション */
+#kmacs {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 60px 20px;
+  margin: 40px 0;
+}
+
+.kmacs-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.kmacs-content h3 {
+  color: #1e40af;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.kmacs-content > p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.kmacs-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.kmacs-feature {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid #e2e8f0;
+}
+
+.kmacs-feature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(30, 64, 175, 0.15);
+  border-color: #1e40af;
+}
+
+.kmacs-feature h4 {
+  color: #1e40af;
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+.kmacs-feature p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.kmacs-benefits {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 40px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.kmacs-benefits h4 {
+  color: #1e40af;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.kmacs-benefit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.kmacs-benefit-list li {
+  padding: 10px 0 10px 30px;
+  position: relative;
+  color: #374151;
+  font-size: 15px;
+  line-height: 1.6;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.kmacs-benefit-list li:last-child {
+  border-bottom: none;
+}
+
+.kmacs-benefit-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-size: 16px;
+}
+
+.kmacs-cta {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.kmacs-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.kmacs-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(30, 64, 175, 0.4);
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+}
+
+.kmacs-button:active {
+  transform: translateY(0);
+}
+
+/* K-MaCSセクション レスポンシブ対応 */
+@media (max-width: 768px) {
+  #kmacs {
+    padding: 40px 16px;
+  }
+  
+  .kmacs-features {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .kmacs-benefits {
+    padding: 20px;
+  }
+  
+  .kmacs-content h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .kmacs-feature {
+    padding: 20px;
+  }
+  
+  .kmacs-button {
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+}

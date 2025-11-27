@@ -1247,11 +1247,14 @@ p {
   background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
   padding: 60px 20px;
   margin: 40px 0;
+  text-align: center;
+  max-width: 100%;
 }
 
 .kmacs-container {
   max-width: 1000px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .kmacs-content h3 {

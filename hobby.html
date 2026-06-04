@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hobby - Koki's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="neon-widget"></div>
+  <nav class="navbar fade-in">
+    <div class="logo">Koki's Portfolio</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="hobby.html">Hobby</a>
+      <a href="portfolio.html">Portfolio</a>
+      <div class="language-switch">
+        <button onclick="setLanguage('ja')">日本語</button>
+        <button onclick="setLanguage('en')">English</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section fade-in">
+    <h1>Hobby</h1>
+    <div class="card-grid">
+      <div class="card fade-in">
+        <img src="images/IMG_4261 2.jpg" alt="MY Dog" class="card-img" />
+        <h2 data-en="My Dog" data-ja="愛犬">愛犬</h2>
+        <p data-en="She is a Golden Doodle." data-ja="女の子で、犬種はゴールデンドゥードル（ゴールデンレトリバーとスタンダードプードルのミックス）です。">
+          女の子で、犬種はゴールデンドゥードル（ゴールデンレトリバーとスタンダードプードルのミックス）です。 </p>
+        <p data-en="She loves to swim and swims every year in the river and at the beach."
+          data-ja="泳ぐのが大好きで海や川に毎年行きます。">泳ぐのが大好きで海や川に毎年行きます。</p>
+      </div>
+      <div class="card fade-in">
+        <img src="images/mario.jpeg" alt="Mario Kart" class="card-img" />
+        <h2 data-en="Mario Kart" data-ja="マリオカート">マリオカート</h2>
+        <p data-en="I love playing Mario Kart with my friends." data-ja="友達とマリオカートをプレイするのが好きです。">友達とマリオカートをプレイするのが好きです。
+        </p>
+        <p data-en="We often have races online." data-ja="私たちはよくオンラインでレースをします。">私たちはよくオンラインでレースをします。</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
